@@ -17,8 +17,9 @@ The analysis revealed some interesting observations:
 
 A detailed code walkthrough can be found in these notebooks:
 
-1. [Visualization using Pandas](https://github.com/singhdivyank/Visualization/blob/main/NYPD_visualization.ipynb)
-2. [Visualization using Plotly](https://colab.research.google.com/drive/1Aka5fncNMsWNNFlg9aJqxk2XAQ8ImdCk?usp=sharing)
+1. [Visualization with Pandas](https://github.com/singhdivyank/Visualization/blob/main/NYPD_visualization.ipynb)
+2. [Visualization with Plotly](https://colab.research.google.com/drive/1Aka5fncNMsWNNFlg9aJqxk2XAQ8ImdCk?usp=sharing)
+3. [Visualization with PyGwalker](https://colab.research.google.com/drive/1x4v3W5QHgIDPOwlVpauomx1z2PnjrtFJ?usp=sharing)
 
 ## Dataset
 
