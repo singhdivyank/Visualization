@@ -1,6 +1,4 @@
-**In progress: being updated**
-
-## Abstract
+# Abstract
 
 Mass shooting is an incident of targeted violence carried out by one or more shooters at one or more public places. Gun related deaths and injuries have increased over the few years in the United States [[1, 2](#references)]. Infact, CDC reported 48830 deaths from gun-related injuries in 2021 [[3](#references)]. Crime has become so common place that some even claim it be "an integral part of a healthy society" [[4](#references)]. As an international student in the United States I was concerned about my safety and wanted to analyse the statistics of the victims and identify the locations where gun-related injuries are prevalant.
 
@@ -22,7 +20,7 @@ A detailed code walkthrough can be found in these notebooks:
 3. [Visualization with PyGwalker](https://colab.research.google.com/drive/1x4v3W5QHgIDPOwlVpauomx1z2PnjrtFJ?usp=sharing)
 4. [Visualization with ggplot (R)](https://colab.research.google.com/drive/1tp7g8b3vf3lTHEFsRCSHixkJ0-rq2SOI?usp=sharing)
 
-## Dataset
+# Dataset
 
 For this project, the **NYPD Shooting Incident Data (Historic)** dataset published by the New York Police Department (NYPD) and maintained by NYC OpenData has been explored. The data is extracted manually each quarter and reviewed by the Office of Management Analysis and Planning and provides detailed categorization of the age, gender, and race of the victims as well as the time and location of all shooting incidents reported since 2006. The dataset can be accessed as a CSV from data.gov [[5](#references)] or from this repository ([NYPD_Shooting.csv](https://github.com/singhdivyank/Visualization/blob/main/NYPD_Shooting.csv)).
 
@@ -52,17 +50,17 @@ A description of all the columns is presented in the table below.
 | Longitude | Geographical longitude where the incident took place |
 | Lon_Lat | Latitude and longitude where the incident took place |
 
-## Methodology
+# Methodology
 
 The major step in this project is Data Wrangling [[6](#references)]. The rationale behind wrangling is to prepare data for analysis and visualization by removing flawed and missing items and restructure data. In this analysis, the first step was to clean the given data by dropping the columns that add little value and removing empty values. As the next step, selection and aggregation are performed on the entity to visualise in order to enrich raw data. The final step is to structure the data into a long form or a pivot table (depending on the entity) to plot a graph.
 
-## Human-Centered Considerations
+# Human-Centered Considerations
 
 This project could be very useful for someone who plans to move to or visit Nork York City or is already a resident. It could help someone understand the crime statistucs such as the time of the day where these crimes happen, the trend in cases over the year and the most targetted race and gender. Visualizing the reported cases on a map would help make informed decisions about the streets and localities to stay and avoid. Survival instinct is one of the most basic instincts to all kinds of life and hopefully the presented work helps someone improve their chances of getting injured from a gun shot.
 
 **The intent here is just to provide information to make smarter choices in order to stay safe in NYC**.
 
-## Requirements
+# Requirements
 
 The analysis was prepared using Python 3.10 running in a Jupyter Notebook environment. References to documentations:
 
@@ -78,7 +76,7 @@ The following Python packages were used and their documentation can be found at 
 6. [Calendar](https://docs.python.org/3/library/calendar.html)
 7. [Plotly](https://plotly.github.io/plotly.py-docs/generated/plotly.html)
 
-## References
+# References
 
 [1] List of mass shootings in the United States in 2018- https://en.wikipedia.org/wiki/List_of_mass_shootings_in_the_United_States_in_2018
 
