@@ -10,6 +10,8 @@ The analysis revealed some interesting observations:
 
 ![](Plotly_plots/ethinicity.png)
 
+![](Plotly_plots/age_radial.png)
+
 ![](R_plots/gender_bar_r.png)
 
 2. Brooklyn and bronx reported the highest number of incidents. Surprisingly, Manhattan had significantly fewer shooting incidents
