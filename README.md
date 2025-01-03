@@ -7,10 +7,27 @@ For this analysis, New York City was shortlisted because I plan to visit the cit
 The analysis revealed some interesting observations:
 
 1. The major victims were 'Black' while the most impacted age group was '18-45'
-2. Brooklyn reported the highest number of incidents followed by Bronx and Queens. To my surprise Manhattan had significantly fewer shooting incidents
+
+![](Plotly_plots/ethinicity.png)
+
+![](R_plots/gender_bar_r.png)
+
+2. Brooklyn and bronx reported the highest number of incidents. Surprisingly, Manhattan had significantly fewer shooting incidents
+
+![](PyGwalker_plots/region_barplot_pyg.png)
+
 3. Over the past 10 years, shooting incidents followed a trend. They increased from Spring to Summer and then decreased
+
+![](Pandas_plots/monthly_trend_pandas.png)
+
 4. Going out at night is particularly unsafe and must be avoid whenever possible
+
+![](Pandas_plots/daily_trend_pandas.png)
+
 5. Parking lots, playgrounds, and transit are usually safe however, the same is untrue for commercial places
+
+![](Plotly_plots/localiy_incidents.png)
+
 6. Most of the shooting hotspots in Manhattan and Queens are situated around the locations I plan to visit
 
 A detailed code walkthrough can be found in these notebooks:
@@ -58,7 +75,7 @@ The major step in this project is Data Wrangling [[6](#references)]. The rationa
 
 This project could be very useful for someone who plans to move to or visit Nork York City or is already a resident. It could help someone understand the crime statistucs such as the time of the day where these crimes happen, the trend in cases over the year and the most targetted race and gender. Visualizing the reported cases on a map would help make informed decisions about the streets and localities to stay and avoid. Survival instinct is one of the most basic instincts to all kinds of life and hopefully the presented work helps someone improve their chances of getting injured from a gun shot.
 
-**The intent here is just to provide information to make smarter choices in order to stay safe in NYC**.
+**The intent here is to provide information to make smarter choices in order to stay safe in NYC**
 
 # Requirements
 
@@ -67,7 +84,7 @@ The analysis was prepared using Python 3.10 running in a Jupyter Notebook enviro
 1. [Python](https://docs.python.org/3.10/)
 2. [Jupyter notebook](http://jupyter-notebook.readthedocs.io/en/latest/)
 
-The following Python packages were used and their documentation can be found at their accompanying links:
+Python packages:
 1. [Pandas](https://pandas.pydata.org/)
 2. [Jupyter](https://jupyter.org/)
 3. [Matplotlib](https://matplotlib.org/)
